@@ -1,55 +1,20 @@
-<h1 align="left">Hey There😊</h1>
+**🎬 Movie Recommendation System — Take-A-Break Project**
+Part of the Take-A-Break Project, a initiative designed to nudge workaholics into actually stepping away from their screens. This model recommends movies tailored for people who rarely take breaks, because everyone deserves a good watch after a long grind.
 
-###
+**How It Works**
+The model uses content-based filtering with TF-IDF vectorization and cosine similarity to match movies based on their attributes. Given a movie a user likes, it finds the closest matches in the dataset.
+Features used for recommendations:
+Genre
+Keywords
+Tagline
+Cast
+Director
 
-<p align="left">✨ Meet me: The lady who loves to torture data till it spills it's secrets👩‍💻😎.</p>
+**🛠️ Tech Stack**
+Python
+Pandas & NumPy — data handling
+Scikit-learn — TF-IDF vectorizer & cosine similarity
+difflib — fuzzy title matching for user input
 
-###
-
-<h2 align="left">I code with</h2>
-
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" height="40" alt="anaconda logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" height="40" alt="canva logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter logo"  />
-</div>
-
-###
-<h3>
-  Connect with me
-</h3>
-<div align="left">
-  <a href="https://www.linkedin.com/in/blessing-ozoemena-70106023b" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
-  </a>
-  <a href="https://discord.com/channels/blessing-ozoemena" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  />
-  </a>
-  <a href="blessingozoemena19@gmail.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  />
-  </a>
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg" width="52" height="40" alt="facebook logo"  />
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/slack/default.svg" width="52" height="40" alt="slack logo"  />
-</div>
-
-###
+**🎯 Part of the Take-A-Break Project**
+This recommendation system is one module within the broader Take-A-Break initiative, which uses machine learning to encourage healthier work-life balance. The idea: if you won't rest on your own, let AI pick your next movie for you.
